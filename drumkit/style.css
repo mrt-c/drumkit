@@ -1,0 +1,11 @@
+body{
+    display: flex;
+    
+}
+.wrapper{
+    justify-content: space-around;
+}
+button{
+    width: 100px;
+    height: 100px;
+}
