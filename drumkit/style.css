@@ -1,11 +1,31 @@
-body{
-    display: flex;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
-.wrapper{
-    justify-content: space-around;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(https://i1.wp.com/irinasayswhat.com/wp-content/uploads/2018/02/IMG_20170311_230024.jpg?resize=768%2C284&ssl=1);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-button{
-    width: 100px;
-    height: 100px;
+div {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  margin: 0 20px;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 10px;
+  opacity: 70%;
+  border: 1px solid yellow;
+}
+h2 {
+  font-size: 30px;
+  color: white;
 }
