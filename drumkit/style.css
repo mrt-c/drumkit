@@ -29,3 +29,6 @@ h2 {
   font-size: 30px;
   color: white;
 }
+audio{
+  display: block;
+}
